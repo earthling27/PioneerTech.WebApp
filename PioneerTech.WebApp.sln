@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerTech.WebApp", "PioneerTech.WebApp\PioneerTech.WebApp.csproj", "{9B8CB01F-0030-4D95-BAA3-FEB0F5D4E9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerTech.WebApp.Tests", "PioneerTech.WebApp.Tests\PioneerTech.WebApp.Tests.csproj", "{2C19A802-50DC-4D55-9F90-CA3BAF81544F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B8CB01F-0030-4D95-BAA3-FEB0F5D4E9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8CB01F-0030-4D95-BAA3-FEB0F5D4E9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8CB01F-0030-4D95-BAA3-FEB0F5D4E9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8CB01F-0030-4D95-BAA3-FEB0F5D4E9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C19A802-50DC-4D55-9F90-CA3BAF81544F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C19A802-50DC-4D55-9F90-CA3BAF81544F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C19A802-50DC-4D55-9F90-CA3BAF81544F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C19A802-50DC-4D55-9F90-CA3BAF81544F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
