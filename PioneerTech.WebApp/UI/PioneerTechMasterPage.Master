@@ -5,14 +5,49 @@
 <html>
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    
+    <link href="../Content/MainMasterPageStylePage.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 190px;
+        }
+        .auto-style2 {
+            width: 190px;
+            height: 23px;
+        }
+        .auto-style3 {
+            height: 23px;
+        }
+    </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    <form id="MainMasterPage" runat="server">
+
+        <div id ="Header" class ="header">
+            
+            <h1>Pioneer</h1>
+        </div>
+        <div id ="Navigation" class="navigation">
+     
+
+          
+            <asp:Menu ID="Menu1" runat="server">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/UI/Home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/UI/EmployeeDetails.aspx" Text="Employee Details" Value="Employee Details"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/UI/ProjectDetails.aspx" Text="Project Details" Value="Project Details"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/UI/CompanyDetails.aspx" Text="Company Details" Value="Company Details"></asp:MenuItem>
+               </Items>
+            </asp:Menu>
+           </div>
+        <div id ="Footer" class="footer">&copy; 2017 </div>
+        <div id ="Content" class="content">
+            <asp:ContentPlaceHolder ID ="ContentPlaceHolder" runat ="server">
+
             </asp:ContentPlaceHolder>
+            
+           
+            
         </div>
     </form>
 </body>

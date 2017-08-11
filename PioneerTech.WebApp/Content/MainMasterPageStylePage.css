@@ -1,0 +1,37 @@
+﻿.header {
+    height: 20%;
+    width: 100%;
+    background-color: gray;
+    top: 0px;
+    position: fixed;
+}
+
+body {
+}
+
+
+
+.navigation {
+    height: 60%;
+    width: 20%;
+    background-color: orange;
+    top: 20%;
+    position: fixed;
+    left: 10px;
+}
+
+.content {
+    top: 21%;
+    height: 60%;
+    width: 79%;
+    left: 21%;
+    position: fixed;
+}
+
+.footer {
+    height: 20%;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    bottom: 0px;
+}

@@ -10,33 +10,33 @@
 namespace PioneerTech.WebApp.UI {
     
     
-    public partial class PioneerTechMasterPage {
+    public partial class CompanyDetails {
         
         /// <summary>
-        /// MainMasterPage control.
+        /// CompanyDetails_Save_ButtonID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm MainMasterPage;
+        protected global::System.Web.UI.WebControls.Button CompanyDetails_Save_ButtonID;
         
         /// <summary>
-        /// Menu1 control.
+        /// CompanyDetails_Edit_ButtonID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu Menu1;
+        protected global::System.Web.UI.WebControls.Button CompanyDetails_Edit_ButtonID;
         
         /// <summary>
-        /// ContentPlaceHolder control.
+        /// CompanyDetails_Clear_ButtonID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder;
+        protected global::System.Web.UI.WebControls.Button CompanyDetails_Clear_ButtonID;
     }
 }
