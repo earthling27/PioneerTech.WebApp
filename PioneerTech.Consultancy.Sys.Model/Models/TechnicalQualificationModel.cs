@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PioneerTech.Consultancy.Sys.Model.Models
 {
-    public class TechnicalQualification
+    public class TechnicalQualificationModel
     {
 
         public string UserInterface { get; set; }

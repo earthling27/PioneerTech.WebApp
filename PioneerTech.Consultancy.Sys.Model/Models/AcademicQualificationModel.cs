@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PioneerTech.Consultancy.Sys.Model.Models
 {
-    public class AcademicQualification
+    public class AcademicQualificationModel
     {
         public string CourseLevel { get; set; }
         public string Specialization { get; set; }

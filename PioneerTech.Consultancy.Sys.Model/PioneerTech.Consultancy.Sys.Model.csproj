@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\AcademicQualification.cs" />
-    <Compile Include="Models\CompanyDetails.cs" />
-    <Compile Include="Models\ProjectDetails.cs" />
-    <Compile Include="Models\PersonalDetails.cs" />
-    <Compile Include="Models\TechnicalQualification.cs" />
+    <Compile Include="Models\AcademicQualificationModel.cs" />
+    <Compile Include="Models\CompanyDetailsModel.cs" />
+    <Compile Include="Models\ProjectDetailsModel.cs" />
+    <Compile Include="Models\PersonalDetailsModel.cs" />
+    <Compile Include="Models\TechnicalQualificationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

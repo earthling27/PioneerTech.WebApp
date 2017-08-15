@@ -18,5 +18,15 @@ namespace PioneerTech.WebApp.UI
         {
 
         }
+
+        protected void CompanyWebSiteTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CompanyContactTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

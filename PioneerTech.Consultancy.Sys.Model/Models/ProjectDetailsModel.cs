@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PioneerTech.Consultancy.Sys.Model.Models
 {
-    public class ProjectDetails
+    public class ProjectDetailsModel
     {
         public string ProjectName { get; set; }
         public string ClientName { get; set; }

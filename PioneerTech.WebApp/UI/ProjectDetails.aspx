@@ -9,32 +9,36 @@
         <tr>
             <td style="width: 71px" class="auto-style1">Project Name</td>
             <td style="width: 153px" colspan="2">
-                <input id="ProjectNameID" style="width: 252px" type="text" /></td>
+            <asp:TextBox ID="ProjectNameTextBox" runat="server"  Width="245px"></asp:TextBox>
+
         </tr>
         <tr>
             <td style="width: 71px" class="auto-style1">Client Name</td>
             <td style="width: 153px" colspan="2">
-                <input id="ClientNameID" style="width: 252px" type="text" /></td>
+            <asp:TextBox ID="ClientNameTextBox" runat="server"  Width="245px"></asp:TextBox>
+
         </tr>
         <tr>
             <td style="width: 71px" class="auto-style1">Location</td>
             <td style="width: 153px" colspan="2">
-                <input id="LocationID" style="width: 252px" type="text" /></td>
+            <asp:TextBox ID="LocationTextBox" runat="server"  Width="245px"></asp:TextBox>
+
         </tr>
         <tr>
             <td style="width: 71px" class="auto-style1">Employee ID</td>
             <td style="width: 153px" colspan="2">
-                <input id="EmployeeIDID" style="width: 252px" type="text" /></td>
+            <asp:TextBox ID="ProjectDetailsEmployeeIDTextBox" runat="server"  Width="245px"></asp:TextBox>
+
         </tr>
         <tr>
                     <td class="auto-style1" style="width: 200px">
-                        <asp:Button ID="Button1" runat="server" Text="Save" Width="72px" />
+                        <asp:Button ID="ProjectDetails_SaveButtonID" runat="server" Text="Save" Width="72px" OnClick="ProjectDetails_SaveButtonID_Click" />
                     </td>
                     <td class="auto-style1" style="width: 20px">
-                        <asp:Button ID="Button2" runat="server" Text="Edit" Width="72px" />
+                        <asp:Button ID="ProjectDetails_EditButtonID" runat="server" Text="Edit" Width="72px" />
                     </td>
                     <td class="auto-style1" style="width: 20px">
-                        <asp:Button ID="Button3" runat="server"  Text="Clear" Width="72px" />
+                        <asp:Button ID="ProjectDetails_ClearButtonID" runat="server"  Text="Clear" Width="72px" />
                     </td>
                 </tr>
         </table>

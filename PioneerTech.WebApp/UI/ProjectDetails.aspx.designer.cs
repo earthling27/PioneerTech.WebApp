@@ -13,30 +13,66 @@ namespace PioneerTech.WebApp.UI {
     public partial class ProjectDetails {
         
         /// <summary>
-        /// Button1 control.
+        /// ProjectNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox ProjectNameTextBox;
         
         /// <summary>
-        /// Button2 control.
+        /// ClientNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.TextBox ClientNameTextBox;
         
         /// <summary>
-        /// Button3 control.
+        /// LocationTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.TextBox LocationTextBox;
+        
+        /// <summary>
+        /// ProjectDetailsEmployeeIDTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ProjectDetailsEmployeeIDTextBox;
+        
+        /// <summary>
+        /// ProjectDetails_SaveButtonID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ProjectDetails_SaveButtonID;
+        
+        /// <summary>
+        /// ProjectDetails_EditButtonID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ProjectDetails_EditButtonID;
+        
+        /// <summary>
+        /// ProjectDetails_ClearButtonID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ProjectDetails_ClearButtonID;
     }
 }

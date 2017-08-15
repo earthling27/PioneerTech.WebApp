@@ -13,30 +13,75 @@ namespace PioneerTech.WebApp.UI {
     public partial class CompanyDetails {
         
         /// <summary>
-        /// CompanyDetails_Save_ButtonID control.
+        /// CompanyNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CompanyDetails_Save_ButtonID;
+        protected global::System.Web.UI.WebControls.TextBox CompanyNameTextBox;
         
         /// <summary>
-        /// CompanyDetails_Edit_ButtonID control.
+        /// CompanyContactTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CompanyDetails_Edit_ButtonID;
+        protected global::System.Web.UI.WebControls.TextBox CompanyContactTextBox;
         
         /// <summary>
-        /// CompanyDetails_Clear_ButtonID control.
+        /// CompanyLocationTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CompanyDetails_Clear_ButtonID;
+        protected global::System.Web.UI.WebControls.TextBox CompanyLocationTextBox;
+        
+        /// <summary>
+        /// CompanyWebSiteTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox CompanyWebSiteTextBox;
+        
+        /// <summary>
+        /// CompanyEmployeeIDTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox CompanyEmployeeIDTextBox;
+        
+        /// <summary>
+        /// CompanyDetails_AddCompanyButtonID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CompanyDetails_AddCompanyButtonID;
+        
+        /// <summary>
+        /// CompanyDetails_EditButtonID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CompanyDetails_EditButtonID;
+        
+        /// <summary>
+        /// CompanyDetails_ClearButtonID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CompanyDetails_ClearButtonID;
     }
 }

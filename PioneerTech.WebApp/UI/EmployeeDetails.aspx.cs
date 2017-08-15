@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using PioneerTech.Consultancy.Sys.Model.Models;
+using PioneerTech.Consultancy.Sys.Model;
 
 namespace PioneerTech.WebApp.UI
 {
@@ -14,24 +16,32 @@ namespace PioneerTech.WebApp.UI
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+
+
+        protected void EmployeeDetails_SaveButtonID_Click(object sender, EventArgs e)
         {
 
-        }
 
-        protected void Button1_Click1(object sender, EventArgs e)
-        {
+            PersonalDetails personal_details = new PersonalDetails()
+            {
+                FirstName = FirstNameTextbox.Text,
+                LastName = LastNameTextbox.Text,
+                EmailID = EmailIDTextBox.Text,
+                Contact = ContactTextBox.Text,
+                Mobile = Convert.ToInt32(MobileTextBox.Text),
+                Phone = Convert.ToInt64(PhoneTextBox.Text),
+                Address1 = Address1TextBox.Text,
+                Address2 = Address2TextBox.Text,
+                HomeCountry = HomeTextBox.Text,
+                CurrentCountry = CurrentCountryTextBox.Text,
+                ZipCode = Convert.ToInt32(ZipCodeTextBox.Text)
 
-        }
 
-        protected void Button4_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        protected void Button5_Click(object sender, EventArgs e)
-        {
-
+            };
         }
     }
 }
+
+        
+    

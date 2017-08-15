@@ -128,6 +128,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PioneerTech.Consultancy.Sys.DAL\PioneerTech.Consultancy.DAL.csproj">
+      <Project>{ca0761a5-0b9d-4bed-9abd-f9966d6e3e71}</Project>
+      <Name>PioneerTech.Consultancy.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PioneerTech.Consultancy.Sys.Model\PioneerTech.Consultancy.Sys.Model.csproj">
+      <Project>{f8c5aa24-f93e-4568-8a28-037bc2c71600}</Project>
+      <Name>PioneerTech.Consultancy.Sys.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

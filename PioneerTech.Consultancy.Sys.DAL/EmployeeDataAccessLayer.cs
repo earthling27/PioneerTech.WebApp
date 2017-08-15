@@ -33,7 +33,7 @@ namespace PioneerTech.Consultancy.DAL
 
         }
 
-        public int InjectCompanyDetails(CompanyDetails comp_details)
+        public int InjectCompanyDetails(CompanyDetailsModel comp_details)
         {
             SqlConnection conn = new SqlConnection("Data Source=EARTHLING;" +
              "Initial Catalog=EmployeeDataBaseManagementSystem;" +
@@ -54,7 +54,7 @@ namespace PioneerTech.Consultancy.DAL
         }
 
 
-        public int InjectProjectDetails(ProjectDetails proj_details)
+        public int InjectProjectDetails(ProjectDetailsModel proj_details)
         {
             SqlConnection conn = new SqlConnection("Data Source=EARTHLING;" +
                 "Initial Catalog=EmployeeDataBaseManagementSystem;" +
@@ -72,7 +72,7 @@ namespace PioneerTech.Consultancy.DAL
 
 
         }
-        public int InjectAcademicQualification(AcademicQualification acad_qualification)
+        public int InjectAcademicQualification(AcademicQualificationModel acad_qualification)
         {
             SqlConnection conn = new SqlConnection("Data Source=EARTHLING;" +
                "Initial Catalog=EmployeeDataBaseManagementSystem;" +
@@ -87,7 +87,7 @@ namespace PioneerTech.Consultancy.DAL
             conn.Close();
             return result;
         }
-        public int InjectTechnicalQualification(TechnicalQualification tech_qualification)
+        public int InjectTechnicalQualification(TechnicalQualificationModel tech_qualification)
         {
 
             SqlConnection conn = new SqlConnection("Data Source=EARTHLING;" +
