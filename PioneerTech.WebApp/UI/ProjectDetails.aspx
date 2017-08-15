@@ -9,25 +9,25 @@
         <tr>
             <td style="width: 71px" class="auto-style1">Project Name</td>
             <td style="width: 153px" colspan="2">
-            <asp:TextBox ID="ProjectNameTextBox" runat="server"  Width="245px"></asp:TextBox>
+            <asp:TextBox ID="ProjectNameTextBox" runat="server"  Width="245px" OnTextChanged="ProjectNameTextBox_TextChanged"></asp:TextBox>
 
         </tr>
         <tr>
             <td style="width: 71px" class="auto-style1">Client Name</td>
             <td style="width: 153px" colspan="2">
-            <asp:TextBox ID="ClientNameTextBox" runat="server"  Width="245px"></asp:TextBox>
+            <asp:TextBox ID="ClientNameTextBox" runat="server"  Width="245px" OnTextChanged="ClientNameTextBox_TextChanged"></asp:TextBox>
 
         </tr>
         <tr>
             <td style="width: 71px" class="auto-style1">Location</td>
             <td style="width: 153px" colspan="2">
-            <asp:TextBox ID="LocationTextBox" runat="server"  Width="245px"></asp:TextBox>
+            <asp:TextBox ID="LocationTextBox" runat="server"  Width="245px" OnTextChanged="LocationTextBox_TextChanged"></asp:TextBox>
 
         </tr>
         <tr>
             <td style="width: 71px" class="auto-style1">Employee ID</td>
             <td style="width: 153px" colspan="2">
-            <asp:TextBox ID="ProjectDetailsEmployeeIDTextBox" runat="server"  Width="245px"></asp:TextBox>
+            <asp:TextBox ID="ProjectDetailsEmployeeIDTextBox" runat="server"  Width="245px" OnTextChanged="ProjectDetailsEmployeeIDTextBox_TextChanged"></asp:TextBox>
 
         </tr>
         <tr>

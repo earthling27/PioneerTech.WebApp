@@ -13,6 +13,15 @@ namespace PioneerTech.WebApp.UI {
     public partial class CompanyDetails {
         
         /// <summary>
+        /// CompanyEmployeeIDTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox CompanyEmployeeIDTextBox;
+        
+        /// <summary>
         /// CompanyNameTextBox control.
         /// </summary>
         /// <remarks>
@@ -47,15 +56,6 @@ namespace PioneerTech.WebApp.UI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox CompanyWebSiteTextBox;
-        
-        /// <summary>
-        /// CompanyEmployeeIDTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CompanyEmployeeIDTextBox;
         
         /// <summary>
         /// CompanyDetails_AddCompanyButtonID control.

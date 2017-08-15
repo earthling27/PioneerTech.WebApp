@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using PioneerTech.Consultancy.Sys.Model;
 using PioneerTech.Consultancy.Sys.Model.Models;
+using PioneerTech.Consultancy.DAL;
 
 namespace PioneerTech.WebApp.UI
 {
@@ -26,9 +27,31 @@ namespace PioneerTech.WebApp.UI
                 Role = "",
                 EmployeeID = Convert.ToInt16(ProjectDetailsEmployeeIDTextBox.Text)
             };
+            EmployeeDataAccessLayer employeeDataAccessLayer = new EmployeeDataAccessLayer();
+            employeeDataAccessLayer.AddtoProjectDetails(proj_details);
 
 
-                
+
+        }
+
+        protected void ProjectNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ClientNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void LocationTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ProjectDetailsEmployeeIDTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

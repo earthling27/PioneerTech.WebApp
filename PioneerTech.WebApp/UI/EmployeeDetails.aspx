@@ -10,50 +10,50 @@
                 <tr>
                     <td class="auto-style1" style="width: 233px">Last Name</td>
                     <td colspan="2">
-                        <asp:TextBox ID="LastNameTextbox" runat="server"  Width="245px"></asp:TextBox></td>
+                        <asp:TextBox ID="LastNameTextbox" runat="server"  Width="245px" OnTextChanged="LastNameTextbox_TextChanged"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td class="auto-style1" style="height: 26px; width: 233px">Email ID</td>
                     <td style="height: 26px" colspan="2">
-                       <asp:TextBox ID="EmailIDTextBox" runat="server"  Width="245px"></asp:TextBox>
+                       <asp:TextBox ID="EmailIDTextBox" runat="server"  Width="245px" OnTextChanged="EmailIDTextBox_TextChanged"></asp:TextBox>
                 </tr>
                 <tr>
                     <td class="auto-style1" style="width: 233px">Contact</td>
                     <td colspan="2">
-                       <asp:TextBox ID="ContactTextBox" runat="server"  Width="245px"></asp:TextBox>
+                       <asp:TextBox ID="ContactTextBox" runat="server"  Width="245px" OnTextChanged="ContactTextBox_TextChanged"></asp:TextBox>
                 </tr>
                 <tr>
                     <td class="auto-style1" style="width: 233px">Mobile</td>
                     <td colspan="2">
-                        <asp:TextBox ID="MobileTextBox" runat="server"  Width="245px"></asp:TextBox>
+                        <asp:TextBox ID="MobileTextBox" runat="server"  Width="245px" OnTextChanged="MobileTextBox_TextChanged"></asp:TextBox>
                 </tr>
                 <tr>
                     <td class="auto-style1" style="width: 233px">Phone</td>
                     <td colspan="2">
-                        <asp:TextBox ID="PhoneTextBox" runat="server"  Width="245px"></asp:TextBox>
+                        <asp:TextBox ID="PhoneTextBox" runat="server"  Width="245px" OnTextChanged="PhoneTextBox_TextChanged"></asp:TextBox>
                         
                 <tr>
                     <td class="auto-style1" style="width: 233px">Address1</td>
                     <td colspan="2">
-                   <asp:TextBox ID="Address1TextBox" runat="server"  Width="245px"></asp:TextBox>
+                   <asp:TextBox ID="Address1TextBox" runat="server"  Width="245px" OnTextChanged="Address1TextBox_TextChanged"></asp:TextBox>
 
                 </tr>
                 <tr>
                     <td class="auto-style1" style="width: 233px">Address2</td>
                     <td colspan="2">
-                    <asp:TextBox ID="Address2TextBox" runat="server"  Width="245px"></asp:TextBox>
+                    <asp:TextBox ID="Address2TextBox" runat="server"  Width="245px" OnTextChanged="Address2TextBox_TextChanged"></asp:TextBox>
 
                 </tr>
                 <tr>
                     <td class="auto-style1" style="width: 233px">Home Country</td>
                     <td colspan="2">
-                    <asp:TextBox ID="HomeTextBox" runat="server"  Width="245px"></asp:TextBox>
+                    <asp:TextBox ID="HomeTextBox" runat="server"  Width="245px" OnTextChanged="HomeTextBox_TextChanged"></asp:TextBox>
 
                 </tr>
                 <tr>
                     <td class="auto-style1" style="width: 233px">Current Country</td>
                     <td colspan="2">
-                    <asp:TextBox ID="CurrentCountryTextBox" runat="server"  Width="245px"></asp:TextBox>
+                    <asp:TextBox ID="CurrentCountryTextBox" runat="server"  Width="245px" OnTextChanged="CurrentCountryTextBox_TextChanged"></asp:TextBox>
 
                 </tr>
                 <tr>
@@ -67,12 +67,13 @@
                         <asp:Button ID="EmployeeDetails_SaveButtonID" runat="server" Text="Save" Width="72px" OnClick="EmployeeDetails_SaveButtonID_Click" />
                     </td>
                     <td class="auto-style1" style="width: 20px">
-                        <asp:Button ID="EmployeeDetails_EditButtonID" runat="server" Text="Edit" Width="72px" />
+                        <asp:Button ID="EmployeeDetails_EditButtonID" runat="server" Text="Edit" Width="72px" OnClick="EmployeeDetails_EditButtonID_Click" />
                     </td>
                     <td class="auto-style1" style="width: 20px">
                         <asp:Button ID="EmployeeDetails_ClearButtonID" runat="server"  Text="Clear" Width="72px" />
                     </td>
                 </tr>
                 </table>
+     
     
 </asp:Content>

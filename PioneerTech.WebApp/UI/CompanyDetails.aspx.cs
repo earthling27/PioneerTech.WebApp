@@ -28,5 +28,30 @@ namespace PioneerTech.WebApp.UI
         {
 
         }
+
+        protected void CompanyDetails_EditButtonID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CompanyDetails_AddCompanyButtonID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CompanyEmployeeIDTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CompanyNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CompanyLocationTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

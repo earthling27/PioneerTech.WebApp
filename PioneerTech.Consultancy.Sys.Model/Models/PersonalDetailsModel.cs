@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PioneerTech.Consultancy.Sys.Model
 {
-    public class PersonalDetails
+    public class PersonalDetailsModel
     {
        
 
