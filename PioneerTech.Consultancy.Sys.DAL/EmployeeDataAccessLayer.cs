@@ -168,7 +168,7 @@ namespace PioneerTech.Consultancy.DAL
             conn.Open();
             SqlCommand command = conn.CreateCommand();
             command.CommandText = "UPDATE [Company Details] SET [EmployeeName] = @employeeName, [ContactNumber] = @contactNumber,[CompanyLocation] = @companyLocation," +
-                "[Website] =@websiteAddress,[EmployeeID] = @employeeID, WHERE [EmployeeID] = @employeeID";
+                "[Website] =@websiteAddress WHERE [EmployeeID] = @employeeID";
 
 
             command.Parameters.AddWithValue("@employeeName", comp_details.EmployeeName);
