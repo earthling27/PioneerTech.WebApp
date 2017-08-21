@@ -10,7 +10,7 @@ namespace PioneerTech.Consultancy.Sys.Model
     {
        
 
-        public int EmployeeID { get;set;}
+        public Int16 EmployeeID { get;set;}
         public string FirstName { get; set;}
         public string LastName { get; set;}
         public string EmailID { get; set;}

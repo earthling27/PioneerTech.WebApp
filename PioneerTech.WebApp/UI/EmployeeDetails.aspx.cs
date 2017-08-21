@@ -36,6 +36,7 @@ namespace PioneerTech.WebApp.UI
                 HomeCountry = HomeTextBox.Text,
                 CurrentCountry = CurrentCountryTextBox.Text,
                 ZipCode = Convert.ToInt32(ZipCodeTextBox.Text)
+                
 
 
 
@@ -63,7 +64,8 @@ namespace PioneerTech.WebApp.UI
                 Address2 = Address2TextBox.Text,
                 HomeCountry = HomeTextBox.Text,
                 CurrentCountry = CurrentCountryTextBox.Text,
-                ZipCode = Convert.ToInt32(ZipCodeTextBox.Text)
+                ZipCode = Convert.ToInt32(ZipCodeTextBox.Text),
+                EmployeeID = Convert.ToInt16(EmployeeIDTextBox.Text)
 
 
 

@@ -2,11 +2,17 @@
 
 <asp:Content ID="EmployeeDetailsID" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
     <table style="width:100%;">
+         <tr>
+                    <td class="auto-style2" style="width: 233px">Employee ID</td>
+                    <td class="auto-style3" colspan="2">
+                        <asp:TextBox ID="EmployeeIDTextBox" runat="server"  Width="245px"></asp:TextBox></td>
+                </tr>
                 <tr>
                     <td class="auto-style2" style="width: 233px">First Name</td>
                     <td class="auto-style3" colspan="2">
                         <asp:TextBox ID="FirstNameTextbox" runat="server"  Width="245px"></asp:TextBox></td>
                 </tr>
+       
                 <tr>
                     <td class="auto-style1" style="width: 233px">Last Name</td>
                     <td colspan="2">

@@ -13,5 +13,6 @@ namespace PioneerTech.Consultancy.Sys.Model.Models
         public string ProgrammingLanguage { get; set; }
         public string ORM_Technology { get; set; }
         public string Database { get; set; }
+        public Int16 EmployeeID { get; set; }
     }
 }

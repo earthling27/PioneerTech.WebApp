@@ -21,11 +21,11 @@
     </style>
 </head>
 <body>
-    <form id="MainMasterPage" runat="server">
+    <form id="PioneerMasterPage" runat="server">
 
         <div id ="Header" class ="header">
             
-            <h1>Pioneer</h1>
+            <h1>Pioneer Technologies Inc.</h1>
         </div>
         <div id ="Navigation" class="navigation">
      
@@ -37,6 +37,8 @@
                     <asp:MenuItem NavigateUrl="~/UI/EmployeeDetails.aspx" Text="Employee Details" Value="Employee Details"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/UI/ProjectDetails.aspx" Text="Project Details" Value="Project Details"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/UI/CompanyDetails.aspx" Text="Company Details" Value="Company Details"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/UI/AcademicDetails.aspx" Text="Academic Details" Value="Academic Details"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/UI/TechnicalDetails.aspx" Text="Technical Details" Value="Technical Details"></asp:MenuItem>
                </Items>
             </asp:Menu>
            </div>

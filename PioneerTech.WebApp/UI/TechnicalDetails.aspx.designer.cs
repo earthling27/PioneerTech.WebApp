@@ -10,7 +10,16 @@
 namespace PioneerTech.WebApp.UI {
     
     
-    public partial class EmployeeDetails {
+    public partial class TechnicalDetals {
+        
+        /// <summary>
+        /// EmployeeIDLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EmployeeIDLabel;
         
         /// <summary>
         /// EmployeeIDTextBox control.
@@ -22,129 +31,102 @@ namespace PioneerTech.WebApp.UI {
         protected global::System.Web.UI.WebControls.TextBox EmployeeIDTextBox;
         
         /// <summary>
-        /// FirstNameTextbox control.
+        /// UserInterfaceLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextbox;
+        protected global::System.Web.UI.WebControls.Label UserInterfaceLabel;
         
         /// <summary>
-        /// LastNameTextbox control.
+        /// UserInterfaceTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTextbox;
+        protected global::System.Web.UI.WebControls.TextBox UserInterfaceTextBox;
         
         /// <summary>
-        /// EmailIDTextBox control.
+        /// ProgrammingLanguageLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailIDTextBox;
+        protected global::System.Web.UI.WebControls.Label ProgrammingLanguageLabel;
         
         /// <summary>
-        /// ContactTextBox control.
+        /// ProgrammingLanguageTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ContactTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ProgrammingLanguageTextBox;
         
         /// <summary>
-        /// MobileTextBox control.
+        /// OrmTechnologiesLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MobileTextBox;
+        protected global::System.Web.UI.WebControls.Label OrmTechnologiesLabel;
         
         /// <summary>
-        /// PhoneTextBox control.
+        /// OrmTechnologiesTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PhoneTextBox;
+        protected global::System.Web.UI.WebControls.TextBox OrmTechnologiesTextBox;
         
         /// <summary>
-        /// Address1TextBox control.
+        /// DatabaseLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Address1TextBox;
+        protected global::System.Web.UI.WebControls.Label DatabaseLabel;
         
         /// <summary>
-        /// Address2TextBox control.
+        /// DatabaseTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Address2TextBox;
+        protected global::System.Web.UI.WebControls.TextBox DatabaseTextBox;
         
         /// <summary>
-        /// HomeTextBox control.
+        /// TechnicalDetailsSaveButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox HomeTextBox;
+        protected global::System.Web.UI.WebControls.Button TechnicalDetailsSaveButton;
         
         /// <summary>
-        /// CurrentCountryTextBox control.
+        /// TechnicalDetailsEditButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CurrentCountryTextBox;
+        protected global::System.Web.UI.WebControls.Button TechnicalDetailsEditButton;
         
         /// <summary>
-        /// ZipCodeTextBox control.
+        /// TechnicalDetailsClearButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ZipCodeTextBox;
-        
-        /// <summary>
-        /// EmployeeDetails_SaveButtonID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmployeeDetails_SaveButtonID;
-        
-        /// <summary>
-        /// EmployeeDetails_EditButtonID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmployeeDetails_EditButtonID;
-        
-        /// <summary>
-        /// EmployeeDetails_ClearButtonID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmployeeDetails_ClearButtonID;
+        protected global::System.Web.UI.WebControls.Button TechnicalDetailsClearButton;
     }
 }

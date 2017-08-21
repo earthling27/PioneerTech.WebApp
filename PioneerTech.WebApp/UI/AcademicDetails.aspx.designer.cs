@@ -10,7 +10,16 @@
 namespace PioneerTech.WebApp.UI {
     
     
-    public partial class EmployeeDetails {
+    public partial class AcademicDetails {
+        
+        /// <summary>
+        /// EmployeeIDLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EmployeeIDLabel;
         
         /// <summary>
         /// EmployeeIDTextBox control.
@@ -22,129 +31,84 @@ namespace PioneerTech.WebApp.UI {
         protected global::System.Web.UI.WebControls.TextBox EmployeeIDTextBox;
         
         /// <summary>
-        /// FirstNameTextbox control.
+        /// CourseTypeLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextbox;
+        protected global::System.Web.UI.WebControls.Label CourseTypeLabel;
         
         /// <summary>
-        /// LastNameTextbox control.
+        /// CourseTypeTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTextbox;
+        protected global::System.Web.UI.WebControls.TextBox CourseTypeTextBox;
         
         /// <summary>
-        /// EmailIDTextBox control.
+        /// GraduationDateLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailIDTextBox;
+        protected global::System.Web.UI.WebControls.Label GraduationDateLabel;
         
         /// <summary>
-        /// ContactTextBox control.
+        /// GraduationDateTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ContactTextBox;
+        protected global::System.Web.UI.WebControls.TextBox GraduationDateTextBox;
         
         /// <summary>
-        /// MobileTextBox control.
+        /// CourseSpecializationLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MobileTextBox;
+        protected global::System.Web.UI.WebControls.Label CourseSpecializationLabel;
         
         /// <summary>
-        /// PhoneTextBox control.
+        /// CourseSpecializationTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PhoneTextBox;
+        protected global::System.Web.UI.WebControls.TextBox CourseSpecializationTextBox;
         
         /// <summary>
-        /// Address1TextBox control.
+        /// AcademicDetailsSaveButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Address1TextBox;
+        protected global::System.Web.UI.WebControls.Button AcademicDetailsSaveButton;
         
         /// <summary>
-        /// Address2TextBox control.
+        /// AcademicDetailsEditButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Address2TextBox;
+        protected global::System.Web.UI.WebControls.Button AcademicDetailsEditButton;
         
         /// <summary>
-        /// HomeTextBox control.
+        /// AcademicDetailsClearButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox HomeTextBox;
-        
-        /// <summary>
-        /// CurrentCountryTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CurrentCountryTextBox;
-        
-        /// <summary>
-        /// ZipCodeTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ZipCodeTextBox;
-        
-        /// <summary>
-        /// EmployeeDetails_SaveButtonID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmployeeDetails_SaveButtonID;
-        
-        /// <summary>
-        /// EmployeeDetails_EditButtonID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmployeeDetails_EditButtonID;
-        
-        /// <summary>
-        /// EmployeeDetails_ClearButtonID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmployeeDetails_ClearButtonID;
+        protected global::System.Web.UI.WebControls.Button AcademicDetailsClearButton;
     }
 }
